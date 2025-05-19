@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import banner from '../images/Banner.jpeg';
+import banner from '../assets/images/Banner.jpeg';
+import cv from '../assets/images/Tamanna Akter- Kuet - 8801950768410.pdf'; 
+
+
+
 
 
 const paragraphs = [
@@ -49,10 +53,10 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="h-screen flex items-center justify-start bg-cover bg-center text-white px-8"
+      className="h-screen w-full mx-auto left-0  right-0 flex items-center justify-start bg-cover bg-center text-white px-8"
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <div className="text-start ml-8">
+      <div className="text-start w-full ml-8">
         <h1 className="text-4xl font-bold animate-bounce">
           Hi, I am <span className="text-blue-700">Tamanna</span>
         </h1>
@@ -60,7 +64,7 @@ const Banner = () => {
         <AnimatePresence mode="wait">
           <motion.p
             key={currentParagraph}
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 0 }} 
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
@@ -71,10 +75,10 @@ const Banner = () => {
         </AnimatePresence>
 
         <button
-  className="mt-8 px-4 py-1 bg-blue-900 text-white font-medium rounded-lg hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl relative overflow-hidden"
+  className=" hidden md:block mt-8 px-4 py-1 bg-blue-900 text-white font-medium rounded-lg hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl relative overflow-hidden"
   onClick={() => {
     // Add your download CV logic here
-    window.open('/src/images/Tamanna Akter Kuet - 8801950768410.pdf', '_blank');
+    window.open(cv, '_blank'); 
   }}
 >
   <span className="relative z-8">Download CV</span>

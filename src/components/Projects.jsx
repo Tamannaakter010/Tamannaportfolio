@@ -1,10 +1,10 @@
 
-import cafe from '../images/cafe.jpg'; // Import your images
-import car from '../images/car.jpg';
-import img3 from '../images/img3.jpeg';
-import Tamanna from '../images/Tamanna.jpeg';
-import img5 from '../images/img3.jpeg';
-import news from '../images/news.png';
+import cafe from '../assets/images/cafe.jpg'; // Import your images
+import car from '../assets/images/car.jpg';
+import img3 from '../assets/images/img3.jpeg';
+import Tamanna from '../assets/images/Tamanna.png';
+import img4 from '../assets/images/img4.jpeg';
+import news from '../assets/images/news.png';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Import an icon for "View Project"
 
 const Projects = () => {
@@ -50,7 +50,7 @@ const Projects = () => {
       id: 6, 
       name: 'Aronty', 
       description: 'A portfolio website using Daisy UI and React.', 
-      image: img5, // Use imported image
+      image: img4, // Use imported image
       link: 'https://tamannaakter010.github.io/Aaronty/' 
     },
   ];
@@ -61,7 +61,7 @@ const Projects = () => {
         <h2 className=" p-8 text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
           MY Projects
         </h2>
-        <div className=" items-center mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className=" items-center mt-4 grid grid-cols-2 md:grid-cols-3 gap-6">
           {projects.map((project) => (
             <a 
               key={project.id} 

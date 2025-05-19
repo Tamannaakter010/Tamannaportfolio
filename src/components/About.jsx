@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import tamannaImg from '../images/Tamanna img.jpeg';
+import tamannaImg from '../assets/images/Tamanna.png';
 
 const About = () => {
   const text = "I am a Full Stack Software Developer with expertise in frontend development and a strong grasp of the MERN stack. I thrive on creating visually appealing, interactive, and user-friendly web applications. Passionate about innovation, I am always ready to pick up new technologies and expand my skill set to stay ahead in the ever-evolving tech landscape.";
@@ -8,9 +8,9 @@ const About = () => {
   const words = text.split(" ");
 
   return (
-    <section id="about" className="py-20 bg-black text-white">
+    <section id="about" className="min-h-screen p-8 bg-black text-white">
        
-      <div className="container mx-auto px-4">
+      <div className="container max-w-2xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}

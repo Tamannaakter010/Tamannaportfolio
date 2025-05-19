@@ -61,7 +61,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-gray-700 text-white shadow-lg fixed top-0 z-50">
+    <div className="navbar w-full  bg-gray-700 text-white shadow-lg fixed top-0 z-50">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
           Tamanna <span className="text-blue-600 font-bold">A</span>kter
@@ -73,11 +73,19 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
 
+      
+      {/* Mobile Menu */}
+      <div
+       className={`absolute top-full left-0 w-full bg-gray-700 text-white transition-transform duration-300 ease-in-out ${
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        } md:hidden`}>
+        <ul className="menu p-4">{navItems}</ul>
+      </div>
       {/* Mobile Menu Toggle Button */}
       <div className="md:hidden">
         <button onClick={toggleMenu} className="p-2 focus:outline-none">
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -93,12 +101,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      <div
-        className={`fixed top-16 right-0 w-full bg-gray-700 text-white transition-all duration-300 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
-      >
-        <ul className="menu p-4">{navItems}</ul>
-      </div>
     </div>
   );
 };
