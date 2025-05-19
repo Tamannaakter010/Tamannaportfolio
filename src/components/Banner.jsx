@@ -77,7 +77,7 @@ const Banner = () => {
         <button
   className=" hidden md:block mt-8 px-4 py-1 bg-blue-900 text-white font-medium rounded-lg hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl relative overflow-hidden"
   onClick={() => {
-    // Add your download CV logic here
+    // Add your download CV logic heree
     window.open(cv, '_blank'); 
   }}
 >
