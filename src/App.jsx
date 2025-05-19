@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='w-auto'>
       <Navbar />
       <Routes>
         <Route path="/" element={
@@ -44,7 +44,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/contact" element={<Reachme />} />
+        <Route path="/reachme" element={<Reachme />} />
       </Routes>
       <Footer />
     </div>

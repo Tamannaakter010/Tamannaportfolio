@@ -61,10 +61,10 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar w-full  bg-gray-700 text-white shadow-lg fixed top-0 z-50">
+    <div className="navbar max-w-auto bg-gray-700 text-white shadow-lg fixed top-0  left-0 right-0 z-40">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
-          Tamanna <span className="text-blue-600 font-bold">A</span>kter
+          Tamanna <span className="text-blue-400 font-bold">A</span>kter
         </Link>
       </div>
 

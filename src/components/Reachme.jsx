@@ -56,7 +56,7 @@ const Reachme = () => {
             <i className="fab fa-whatsapp"></i> {/* WhatsApp Icon */}
           </a>
           <a
-            href="https://wa.me/+8801950768410"
+            href="https://www.facebook.com/share/15tMoVQeBt/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"

@@ -53,7 +53,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="h-screen w-full mx-auto left-0  right-0 flex items-center justify-start bg-cover bg-center text-white px-8"
+      className="h-screen w-full  mx-auto left-0  right-0 flex items-center justify-start bg-cover bg-center text-white px-8"
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="text-start w-full ml-8">
@@ -77,7 +77,7 @@ const Banner = () => {
         <button
   className=" hidden md:block mt-8 px-4 py-1 bg-blue-900 text-white font-medium rounded-lg hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl relative overflow-hidden"
   onClick={() => {
-    // Add your download CV logic heree
+    //  CV 
     window.open(cv, '_blank'); 
   }}
 >
