@@ -34,8 +34,8 @@ export default function AnimatedForm() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-700 text-white ">
-      <h2 className="text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 mb-10">
+    <div className="flex flex-col items-center justify-center  bg-gray-700 text-white ">
+      <h2 className="text-2xl text-center mt-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 mb-5">
         Contact
       </h2>
       <motion.form
@@ -43,7 +43,7 @@ export default function AnimatedForm() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-md"
+        className="bg-gray-900 mb-5 p-8 rounded-2xl shadow-xl w-full max-w-md"
       >
         <h2 className="text-xl font-bold text-center mb-4">Log in</h2>
 
