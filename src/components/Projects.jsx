@@ -58,9 +58,11 @@ const Projects = () => {
   return (
     <section id="projects" className=" bg-[#0D1117] text-white min-h-screen   ">
       <div className="container px-4">
+        <div className=''>
         <h2 className=" p-8 text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
           MY Projects
         </h2>
+        </div>
         <div className=" md:ml-15 items-center mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((project) => (
             <a 

@@ -8,7 +8,7 @@ const About = () => {
   const words = text.split(" ");
 
   return (
-    <section id="about" className="min-h-screen p-8 bg-black text-white">
+    <section id="about" className="p-8 bg-black text-white">
        
       <div className="container max-w-2xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center">
