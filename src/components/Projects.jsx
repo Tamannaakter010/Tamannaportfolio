@@ -1,9 +1,9 @@
 
 import cafe from '../assets/images/cafe.jpg'; // Import your images
-import car from '../assets/images/car.jpg';
+//import car from '../assets/images/car.jpg';
 import img3 from '../assets/images/img3.jpeg';
-import Tamanna from '../assets/images/Tamanna.png';
-import img4 from '../assets/images/img4.jpeg';
+//import Tamanna from '../assets/images/Tamanna.png';
+//import img4 from '../assets/images/img4.jpeg';
 import news from '../assets/images/news.png';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Import an icon for "View Project"
 
@@ -23,14 +23,7 @@ const Projects = () => {
       image: img3, // Use imported image
       link: 'https://tamannaakter010.github.io/Space-Architecten/'
     },
-    {
-      id: 3,
-      name: 'Car Doctor',
-      description: 'An e-commerce platform using Node.js and MongoDB.',
-      image: car, // Use imported image
-      link: 'https://cars-doctor-9410d.web.app/'
-    },
-
+   
     {
       id: 4,
       name: 'News Portal',
@@ -39,20 +32,8 @@ const Projects = () => {
       link: 'https://news-portal-23e60.web.app/career'
     },
 
-    {
-      id: 5,
-      name: 'Portfolio',
-      description: 'A portfolio website using Daisy UI and React.',
-      image: Tamanna, // Use imported image
-      link: 'https://tamannaakter010.github.io/portfolio/'
-    },
-    {
-      id: 6,
-      name: 'Aronty',
-      description: 'A portfolio website using Daisy UI and React.',
-      image: img4, // Use imported image
-      link: 'https://tamannaakter010.github.io/Aaronty/'
-    },
+  
+
   ];
 
   return (

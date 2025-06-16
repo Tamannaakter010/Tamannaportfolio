@@ -53,7 +53,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="h-screen w-full  mx-auto left-0  right-0 flex items-center justify-start bg-cover bg-center text-white "
+      className="h-screen w-full   left-0  right-0 flex items-center justify-start bg-cover bg-center text-white "
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="text-start w-full ml-8">
