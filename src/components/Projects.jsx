@@ -2,9 +2,9 @@
 import cafe from '../assets/images/cafe.jpg'; // Import your images
 import car from '../assets/images/car.jpg';
 import img3 from '../assets/images/img3.jpeg';
-import Tamanna from '../assets/images/Tamanna.png';
-import img4 from '../assets/images/img4.jpeg';
-import news from '../assets/images/news.png';
+//import Tamanna from '../assets/images/Tamanna.png';
+//import img4 from '../assets/images/img4.jpeg';
+//import news from '../assets/images/news.png';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Import an icon for "View Project"
 
 const Projects = () => {
@@ -31,7 +31,7 @@ const Projects = () => {
       link: 'https://cars-doctor-9410d.web.app/' 
     },
   
-    { 
+   {/*} { 
       id: 4, 
       name: 'News Portal', 
       description: 'A Shopping  website using Daisy UI,Tailwind and Java Script.', 
@@ -52,7 +52,7 @@ const Projects = () => {
       description: 'A portfolio website using Daisy UI and React.', 
       image: img4, // Use imported image
       link: 'https://tamannaakter010.github.io/Aaronty/' 
-    },
+    },*/}
   ];
 
   return (
